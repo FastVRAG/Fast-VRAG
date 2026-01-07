@@ -9,9 +9,9 @@ To mitigate errors caused by fine-grained entity confusion in retrieved knowledg
 Experiments on VideoSimpleQA and Encyclopedic VQA demonstrate that VideoSpeculateRAG achieves comparable or improved accuracy over standard RAG approaches while providing nearly a 2× inference speedup, highlighting its effectiveness for efficient multimodal reasoning.
 ![overview](/assets/overview.png)
 ## Demo
-<p align="center">
-  <video src="assets/example.mp4" width="750" controls></video>
-</p>
+
+https://github.com/user-attachments/assets/82da808a-f47d-47b1-8d31-970ce15d40ff
+
 Here is a demo of our system. The left side of the screen shows the generation process of our speculative FastV-RAG model, and the right side shows the original Qwen2.5-VL model.
 
 ## Quick Start
@@ -28,3 +28,4 @@ python speculative_rag.py \
     --question "Your question" \
     --video-path "path/to/video"
 ```
+
